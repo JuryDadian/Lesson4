@@ -15,6 +15,6 @@ public class ArrayMaxMin {
         System.out.println(Arrays.toString(array));
         System.out.println(Arrays.stream(array).max());
         System.out.println(Arrays.stream(array).min());
-        System.out.println(result / array.length);
+        System.out.printf("%.2f", result / array.length);
     }
 }
